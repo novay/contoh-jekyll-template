@@ -5,8 +5,8 @@ title: 						"NovayNotes"
 email: 						"novay@about.me"
 description: 				"Based on Astro Tempalate by EckoThemes which subtitute my current template on my personal blog."
 baseurl: 					""
-url: 						"http://novay.github.io/contoh-jekyll-template"
-logourl: 					"/assets/img/bloglogo.jpg"		
+url: 						"http://novay.github.io/contoh-jekyll-template/"
+logourl: 					"http://novay.github.io/contoh-jekyll-template//assets/img/bloglogo.jpg"		
 fa-logo: 					"fa-bookmark-o"
 paginate: 					5
 
@@ -16,7 +16,7 @@ author_name: 				"Noviyanto Rachmady"
 author_url: 				"http://novay.web.id"
 author_bio: 				"Noviyanto Rachmady has built a career and reputation by breaking the rules. Novay's shoot-from-the-hip style has made him an effective programmer and a slick pirates."
 author_email: 				"novay@about.me"
-author_image: 				"/assets/img/authorimage.jpg"
+author_image: 				"http://novay.github.io/contoh-jekyll-template//assets/img/authorimage.jpg"
 
 
 # Social Settings

@@ -12,7 +12,7 @@
       <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
       <link rel="alternate" type="application/rss+xml" href="{{ site.url }}/feed.xml">
-      <link rel="shortcut icon" href="{{ "/favicon.ico" | prepend: site.baseurl }}">
+      <link rel="shortcut icon" href="{{ site.url }}{{ "/favicon.ico" | prepend: site.baseurl }}">
       <link rel="prefetch" href="{{ site.url }}">
       <link rel="canonical" href="{{ page.url | replace:'index.html','' | prepend: site.baseurl | prepend: site.url }}">
 
@@ -39,7 +39,7 @@
         'autoload_comments': {{ site.theme_autoload_comments }}
       };
     </script>
-    <script async type="text/javascript" src="{{ "/assets/js/theme.min.js" | prepend: site.baseurl }}"></script>
+    <script async type="text/javascript" src="{{ site.url }}{{ "/assets/js/theme.min.js" | prepend: site.baseurl }}"></script>
 
   </body>
 </html>
